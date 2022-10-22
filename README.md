@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# d3-research
+d3 라이브러리에 대해 연구한 내용과 관련 코드들을 작성하는 레포지토리 입니다. 현재는 d3 에 있는 모든 메서드에 대해 순차적으로 파악해보고 있는 중입니다. :)
 
-## Getting Started
+<br />
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+# 로컬 구동 방법
+1) 이 레포지토리를 clone 받습니다.
+```
+git clone https://github.com/wisdomstar94/d3-research.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2) clone 받은 레포지토리 경로로 들어갑니다.
+```
+cd d3-research
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3) npm package 설치를 진행합니다.
+```
+npm i
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+4) 아래 명령어를 통해 로컬 구동을 실행합니다.
+```
+npm run local
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5) 이제 http://localhost:3030/ 에 접근하면 됩니다.
