@@ -1,0 +1,74 @@
+.content-area {
+  width: calc(100% - 260px);
+  height: calc(100% - 50px);
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 260px;
+  z-index: 3;
+  background-color: #fff;
+  overflow-y: scroll;
+  animation-duration: 0ms;
+  animation-fill-mode: both;
+  transition: none;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  &.animation-duration {
+    transition: 0.3s all;
+    animation-duration: 300ms;
+  }
+
+  &.pc-basic {
+    animation-name: pcBasic;
+  }
+
+  &.pc-side-bar-minimum {
+    animation-name: pcSideBarMinumum;
+  }
+
+  &.mobile-basic, &.mobile-side-bar-show {
+    animation-name: mobileContentArea;
+  }
+}
+
+@keyframes pcSideBarMinumum {
+  0% {
+    width: calc(100% - 260px);
+    left: 260px;
+  }
+  100% {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+}
+
+@keyframes pcBasic {
+  0% {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  100% {
+    width: calc(100% - 260px);
+    left: 260px;
+  } 
+}
+
+@keyframes mobileContentArea {
+  0% {
+    width: calc(100% - 260px);
+    left: 260px;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}

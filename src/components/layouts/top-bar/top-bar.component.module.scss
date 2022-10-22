@@ -1,0 +1,98 @@
+.top-bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  top: 0;
+  left: 260px;
+  background-color: #fff;
+  z-index: 4;
+  animation-duration: 0ms;
+  animation-fill-mode: both;
+  transition: none;
+
+  &.animation-duration {
+    transition: 0.3s all;
+    animation-duration: 300ms;
+  }
+
+  &.pc-basic {
+    animation-name: pcBasic;
+  }
+
+  &.pc-side-bar-minimum {
+    animation-name: pcSideBarMinumum;
+  }
+
+  &.mobile-basic, &.mobile-side-bar-show {
+    animation-name: mobileTopBar;
+  }
+
+  .left-area {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+    .hamburger-icon {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      margin-left: 14px;
+      position: relative;
+      cursor: pointer;
+      // background-color: #eee;
+    }
+  }
+
+  .right-area {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+}
+
+@keyframes pcSideBarMinumum {
+  0% {
+    width: calc(100% - 260px);
+    left: 260px;
+  }
+  100% {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+}
+
+@keyframes pcBasic {
+  0% {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  100% {
+    width: calc(100% - 260px);
+    left: 260px;
+  } 
+}
+
+@keyframes mobileTopBar {
+  0% {
+    width: calc(100% - 260px);
+    left: 260px;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}

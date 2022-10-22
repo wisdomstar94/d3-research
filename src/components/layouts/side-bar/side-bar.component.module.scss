@@ -1,0 +1,198 @@
+.side-bar-background {
+  width: 0;
+  height: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  animation-duration: 0ms;
+  animation-fill-mode: both;
+  transition: none;
+  overflow: hidden;
+
+  &.animation-duration {
+    transition: 0.3s all;
+    animation-duration: 300ms;
+  }
+
+  &.mobile-basic {
+    animation-name: mobileSideBarBackgroundHide;
+  }
+
+  &.mobile-side-bar-show {
+    animation-name: mobileSideBarBackgroundShow;
+  }
+}
+
+.side-bar {
+  width: 260px;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  animation-duration: 0ms;
+  animation-fill-mode: both;
+  transition: none;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+    opacity: 0;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  &.animation-duration {
+    transition: 0.3s all;
+    animation-duration: 300ms;
+  }
+
+  &.pc-basic {
+    animation-name: pcBasic;
+  }
+
+  &.pc-side-bar-minimum {
+    animation-name: pcSideBarMinumum;
+  }
+
+  &.mobile-basic {
+    animation-name: mobileSideBarHide;
+  }
+
+  &.mobile-side-bar-show {
+    animation-name: mobileSideBarShow;
+  }
+
+  ul.menu-list {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    > li.item {
+      list-style-type: none;
+      margin: 0;
+      margin-bottom: 4px;
+      padding: 8px 14px;
+      position: relative;
+      cursor: pointer;
+      color: #777;
+      font-size: 0.85rem;
+      font-weight: normal;
+      word-break: break-all;
+
+      &.active {
+        color: #000;
+        background-color: #e1e1e1;
+
+        &:hover {
+          background-color: #e1e1e1;
+        }
+      }
+
+      &:hover {
+        background-color: #f6f6f6;
+      }
+    }
+  }
+}
+
+@keyframes pcSideBarMinumum {
+  0% {
+    width: 260px;
+  }
+  100% {
+    width: 60px;
+  }
+}
+
+@keyframes pcBasic {
+  0% {
+    width: 60px;
+  }
+  100% {
+    width: 260px;
+  } 
+}
+
+
+
+@keyframes mobileSideBarHide {
+  0% {
+    width: 260px;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  100% {
+    width: 260px;
+    height: 100%;
+    top: 0;
+    left: -260px;
+  }
+}
+
+@keyframes mobileSideBarShow {
+  0% {
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -260px;
+  }
+  100% {
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes mobileSideBarBackgroundHide {
+  0% {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  99% {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes mobileSideBarBackgroundShow {
+  0% {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  1% {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+}
