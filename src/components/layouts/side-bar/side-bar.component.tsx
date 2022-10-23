@@ -154,6 +154,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-140-geoArea', menuLink: '/d3-example/d3-140-geoArea' },
     { menuName: 'd3-141-geoAzimuthalEqualArea', menuLink: '/d3-example/d3-141-geoAzimuthalEqualArea' },
     { menuName: 'd3-142-geoAzimuthalEqualAreaRaw', menuLink: '/d3-example/d3-142-geoAzimuthalEqualAreaRaw' },
+    { menuName: 'd3-143-geoAzimuthalEquidistant', menuLink: '/d3-example/d3-143-geoAzimuthalEquidistant' },
   ]);
 
   useEffect(() => {
