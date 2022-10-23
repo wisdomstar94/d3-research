@@ -152,6 +152,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-138-geoAlbers', menuLink: '/d3-example/d3-138-geoAlbers' },
     { menuName: 'd3-139-geoAlbersUsa', menuLink: '/d3-example/d3-139-geoAlbersUsa' },
     { menuName: 'd3-140-geoArea', menuLink: '/d3-example/d3-140-geoArea' },
+    { menuName: 'd3-141-geoAzimuthalEqualArea', menuLink: '/d3-example/d3-141-geoAzimuthalEqualArea' },
   ]);
 
   useEffect(() => {
