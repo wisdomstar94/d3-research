@@ -151,6 +151,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-137-fsum', menuLink: '/d3-example/d3-137-fsum' },
     { menuName: 'd3-138-geoAlbers', menuLink: '/d3-example/d3-138-geoAlbers' },
     { menuName: 'd3-139-geoAlbersUsa', menuLink: '/d3-example/d3-139-geoAlbersUsa' },
+    { menuName: 'd3-140-geoArea', menuLink: '/d3-example/d3-140-geoArea' },
   ]);
 
   useEffect(() => {
