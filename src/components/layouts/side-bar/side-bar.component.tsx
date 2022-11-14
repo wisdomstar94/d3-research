@@ -162,6 +162,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-148-geoClipAntimeridian', menuLink: '/d3-example/d3-148-geoClipAntimeridian' },
     { menuName: 'd3-149-geoClipCircle', menuLink: '/d3-example/d3-149-geoClipCircle' },
     { menuName: 'd3-150-geoClipRectangle', menuLink: '/d3-example/d3-150-geoClipRectangle' },
+    { menuName: 'd3-151-geoConicConformal', menuLink: '/d3-example/d3-151-geoConicConformal' },
   ]);
 
   useEffect(() => {
