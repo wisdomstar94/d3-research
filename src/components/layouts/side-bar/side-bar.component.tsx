@@ -157,6 +157,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-143-geoAzimuthalEquidistant', menuLink: '/d3-example/d3-143-geoAzimuthalEquidistant' },
     { menuName: 'd3-144-geoAzimuthalEquidistantRaw', menuLink: '/d3-example/d3-144-geoAzimuthalEquidistantRaw' },
     { menuName: 'd3-145-geoBounds', menuLink: '/d3-example/d3-145-geoBounds' },
+    { menuName: 'd3-146-geoCentroid', menuLink: '/d3-example/d3-146-geoCentroid' },
   ]);
 
   useEffect(() => {
