@@ -160,6 +160,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-146-geoCentroid', menuLink: '/d3-example/d3-146-geoCentroid' },
     { menuName: 'd3-147-geoCircle', menuLink: '/d3-example/d3-147-geoCircle' },
     { menuName: 'd3-148-geoClipAntimeridian', menuLink: '/d3-example/d3-148-geoClipAntimeridian' },
+    { menuName: 'd3-149-geoClipCircle', menuLink: '/d3-example/d3-149-geoClipCircle' },
   ]);
 
   useEffect(() => {
