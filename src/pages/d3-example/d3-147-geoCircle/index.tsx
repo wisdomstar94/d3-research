@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
 import { geoCentroid, select, geoMercator, json, geoPath, geoAzimuthalEqualArea, geoOrthographic, geoGraticule, geoCircle } from "d3";
 
-// 
+// https://bl.ocks.org/d3indepth/60f490c6abd7be53d4aa39818e11d273
 
 const Index: NextPage = () => {
   return (
