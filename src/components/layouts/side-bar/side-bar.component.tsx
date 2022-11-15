@@ -166,7 +166,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-152-geoConicConformalRaw', menuLink: '/d3-example/d3-152-geoConicConformalRaw' },
     { menuName: 'd3-153-geoConicEqualArea', menuLink: '/d3-example/d3-153-geoConicEqualArea' },
     { menuName: 'd3-154-geoConicEqualAreaRaw', menuLink: '/d3-example/d3-154-geoConicEqualAreaRaw' },
-    
+    { menuName: 'd3-155-geoConicEquidistant', menuLink: '/d3-example/d3-155-geoConicEquidistant' },
   ]);
 
   useEffect(() => {
