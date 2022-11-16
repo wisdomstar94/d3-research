@@ -180,6 +180,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-166-geoGraticule10', menuLink: '/d3-example/d3-166-geoGraticule10' },
     { menuName: 'd3-167-geoIdentity', menuLink: '/d3-example/d3-167-geoIdentity' },
     { menuName: 'd3-168-geoInterpolate', menuLink: '/d3-example/d3-168-geoInterpolate' },
+    { menuName: 'd3-169-geoLength', menuLink: '/d3-example/d3-169-geoLength' },
     
   ]);
 
