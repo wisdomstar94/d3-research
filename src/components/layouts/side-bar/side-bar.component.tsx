@@ -195,6 +195,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-181-geoStereographicRaw', menuLink: '/d3-example/d3-181-geoStereographicRaw' },
     { menuName: 'd3-182-geoStream', menuLink: '/d3-example/d3-182-geoStream' },
     { menuName: 'd3-183-geoTransform', menuLink: '/d3-example/d3-183-geoTransform' },
+    { menuName: 'd3-184-geoTransverseMercator', menuLink: '/d3-example/d3-184-geoTransverseMercator' },
     
   ]);
 
