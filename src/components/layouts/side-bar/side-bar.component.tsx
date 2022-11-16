@@ -171,6 +171,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-157-geoContains', menuLink: '/d3-example/d3-157-geoContains' },
     { menuName: 'd3-158-geoDistance', menuLink: '/d3-example/d3-158-geoDistance' },
     { menuName: 'd3-159-geoEqualEarth', menuLink: '/d3-example/d3-159-geoEqualEarth' },
+    { menuName: 'd3-160-geoEqualEarthRaw', menuLink: '/d3-example/d3-160-geoEqualEarthRaw' },
   ]);
 
   useEffect(() => {

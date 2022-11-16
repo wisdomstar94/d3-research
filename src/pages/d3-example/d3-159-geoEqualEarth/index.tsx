@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
-import { geoAzimuthalEquidistant, select, json, geoPath, geoProjection, geoContains, pointer, geoDistance, geoEqualEarth } from "d3";
+import { select, json, geoPath, geoEqualEarth } from "d3";
 
 // https://mappingwithd3.com/getting-started/
 
@@ -42,7 +42,7 @@ const PageContents = () => {
     
 
     // AzimuthalEqualArea projection
-    const gfg = geoEqualEarth()
+    const projection = geoEqualEarth()
       .scale(width / 1.5 / Math.PI)
       .translate([width / 2, height / 2]);
 
@@ -59,7 +59,7 @@ const PageContents = () => {
         .data(data.features)
         .enter().append("path")
         .attr("fill", "green")
-        .attr("d", geoPath().projection(gfg) as any)
+        .attr("d", geoPath().projection(projection) as any)
         .style("stroke", "#ffff");
     });
   }, []);
