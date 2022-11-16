@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
-import { select, json, geoPath, geoAzimuthalEqualArea, geoProjection, geoGraticule } from "d3";
+import { select, json, geoPath, geoAzimuthalEqualArea, geoProjection, geoGraticule10 } from "d3";
 
 // https://stackoverflow.com/questions/70761981/d3-js-geograticule-doesnt-follow-the-sphere-shape
 
@@ -10,8 +10,8 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>d3-165-geoGraticule</title>
-        <meta name="description" content="d3-165-geoGraticule 예시 코드 페이지입니다." />
+        <title>d3-166-geoGraticule10</title>
+        <meta name="description" content="d3-166-geoGraticule10 예시 코드 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -33,17 +33,12 @@ const PageContents = () => {
     }
 
     /*
-      d3.geoGraticule 함수는 눈금을 만들기 위한 지오메트리 생성기를 구성합니다. 
-      투영 왜곡을 표시하기 위한 자오선과 평행선의 균일한 그리드입니다. 
-      기본 격자는 ±80° 위도 사이의 10°마다 자오선과 평행선을 가지고 있으며, 극지방의 경우 90°마다 자오선이 있습니다.
+      
     */
 
 
-    const graticule = geoGraticule();
-    console.log('graticule', graticule);
+    const lines = geoGraticule10();
     
-    const lines = graticule();
-
     const width = 800;
     const height = 800;
 
