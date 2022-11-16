@@ -189,6 +189,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-175-geoOrthographicRaw', menuLink: '/d3-example/d3-175-geoOrthographicRaw' },
     { menuName: 'd3-176-geoPath', menuLink: '/d3-example/d3-176-geoPath' },
     { menuName: 'd3-177-geoProjection', menuLink: '/d3-example/d3-177-geoProjection' },
+    { menuName: 'd3-178-geoProjectionMutator', menuLink: '/d3-example/d3-178-geoProjectionMutator' },
     
   ]);
 
