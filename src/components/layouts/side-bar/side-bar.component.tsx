@@ -179,6 +179,8 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-165-geoGraticule', menuLink: '/d3-example/d3-165-geoGraticule' },
     { menuName: 'd3-166-geoGraticule10', menuLink: '/d3-example/d3-166-geoGraticule10' },
     { menuName: 'd3-167-geoIdentity', menuLink: '/d3-example/d3-167-geoIdentity' },
+    { menuName: 'd3-168-geoInterpolate', menuLink: '/d3-example/d3-168-geoInterpolate' },
+    
   ]);
 
   useEffect(() => {
