@@ -1,17 +1,15 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
-import { select, geoAzimuthalEqualArea, json, geoPath } from 'd3';
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
-
-// https://www.geeksforgeeks.org/d3-js-geoazimuthalequalarea-function/
+import { select, json, geoPath, geoEquirectangular } from "d3";
 
 const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>d3-141-geoAzimuthalEqualArea</title>
-        <meta name="description" content="d3-141-geoAzimuthalEqualArea 예시 코드 페이지입니다." />
+        <title>d3-161-geoEquirectangular</title>
+        <meta name="description" content="d3-161-geoEquirectangular 예시 코드 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,10 +30,6 @@ const PageContents = () => {
       }
     }
 
-    /*
-      d3.geoAzimuthalEqualArea 은 주어진 geojson 데이터에서 Lambert 방위각 등가 투영을 그리는 데 사용되는 함수입니다.
-    */
-
     const width = 800;
     const height = 800;
 
@@ -44,7 +38,7 @@ const PageContents = () => {
       .attr("width", width)
       .attr("height", height);
     
-    const projection = geoAzimuthalEqualArea()
+    const projection = geoEquirectangular()
       .scale(width / 1.5 / Math.PI)
       .translate([width / 2, height / 2]);
 
