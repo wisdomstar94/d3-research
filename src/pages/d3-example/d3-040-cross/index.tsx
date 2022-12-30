@@ -38,6 +38,17 @@ const PageContents = () => {
     const crossArray = cross(array1, array2);
 
     console.log('crossArray', crossArray);
+
+
+
+    const array3 = ["빨강","초록","파랑"];
+    const array4 = ["s","m","l"];
+    const array5 = ["무료배송","유료배송"];
+
+    const crossArray2 = (cross as any)(array3, array4, array5);
+
+    console.log('crossArray', crossArray);
+    console.log('crossArray2', crossArray2);
   }, []);
 
   return (
