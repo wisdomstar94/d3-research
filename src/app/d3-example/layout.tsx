@@ -13,9 +13,7 @@ export default function D3ExampleLayout({ children }: {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div data-name="d3-example-layout">
-        <CommonLayout>
-          { children }
-        </CommonLayout>
+        { children }        
       </div>
     </>
   );

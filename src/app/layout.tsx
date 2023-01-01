@@ -3,6 +3,7 @@ import Head from "next/head";
 import { RecoilRoot } from "recoil";
 import RootComponent from "./_root";
 import '../styles/globals.scss';
+import CommonLayout from "../components/layouts/common-layout/common-layout.component";
 
 // root layout (필수)
 export default function RootLayout({ children }: {
@@ -19,7 +20,9 @@ export default function RootLayout({ children }: {
       <body data-name="commom-layout">
         <RecoilRoot>
           <RootComponent>
-            {children}
+            <CommonLayout>
+              {children}
+            </CommonLayout>
           </RootComponent>
         </RecoilRoot>
       </body>
