@@ -1,9 +1,11 @@
-import { useRouter } from "next/router";
+"use client"
+import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRecoilState } from "recoil";
 import { commonLayoutModeStateAtom } from "../common-layout/common-layout.atom";
 import styles from "./side-bar.component.module.scss";
 import { ISideBar } from "./side-bar.interface";
+import anime from 'animejs/lib/anime.es.js';
 
 const SideBar = (props: ISideBar.Props) => {
   const sideBarElementRef = useRef<HTMLDivElement>(null);
@@ -11,6 +13,7 @@ const SideBar = (props: ISideBar.Props) => {
   const [isActiveTransition, setIsActiveTransition] = useState(false);
 
   const router = useRouter();
+  const pathname = usePathname();
   const [menuItems, setMenuItems] = useState<ISideBar.MenuItem[]>([
     { menuName: 'd3-001-adder', menuLink: '/d3-example/d3-001-adder' },
     { menuName: 'd3-002-delaunay', menuLink: '/d3-example/d3-002-delaunay' },
@@ -217,18 +220,24 @@ const SideBar = (props: ISideBar.Props) => {
   }, [setCommonLayoutModeState]);
 
   const isMenuActive = useCallback((item: ISideBar.MenuItem) => {
-    const asPath = router.asPath;
-    const isActive = asPath.includes(item.menuLink);
+    const asPath = pathname;
+    const isActive = asPath?.includes(item.menuLink);
     if (isActive && typeof document !== 'undefined') {
       const offsetTop = document.querySelector<HTMLElement>('.ul-menu-list')?.querySelector<HTMLElement>(`li[data-value=${item.menuName}]`)?.offsetTop;
       if (typeof offsetTop === 'number') {
         if (sideBarElementRef.current !== null) {
-          sideBarElementRef.current.scrollTop = offsetTop;
+          // sideBarElementRef.current.scrollTop = offsetTop;
+          anime({
+            targets: [sideBarElementRef.current],
+            scrollTop: offsetTop - 140,
+            easing: 'easeOutQuint',
+            duration: 400,
+          });
         }
       }
     }
     return isActive;
-  }, [router.asPath]);
+  }, [pathname]);
 
   return (
     <>
