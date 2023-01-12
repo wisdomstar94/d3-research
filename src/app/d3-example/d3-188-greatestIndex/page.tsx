@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
 import { greatest, greatestIndex } from "d3";
 
-// https://www.geeksforgeeks.org/d3-js-greatest-method/
+// https://www.geeksforgeeks.org/d3-js-greatestindex-method/
 
 const Index: NextPage = () => {
   return (
