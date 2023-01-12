@@ -207,6 +207,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-190-groupSort', menuLink: '/d3-example/d3-190-groupSort' },
     { menuName: 'd3-191-groups', menuLink: '/d3-example/d3-191-groups' },
     { menuName: 'd3-192-hcl', menuLink: '/d3-example/d3-192-hcl' },
+    { menuName: 'd3-193-hierarchy', menuLink: '/d3-example/d3-193-hierarchy' },
   ]);
 
   useEffect(() => {
