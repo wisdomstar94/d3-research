@@ -218,6 +218,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-201-interpolateBasis', menuLink: '/d3-example/d3-201-interpolateBasis' },
     { menuName: 'd3-202-interpolateBasisClosed', menuLink: '/d3-example/d3-202-interpolateBasisClosed' },
     { menuName: 'd3-203-interpolateBlues', menuLink: '/d3-example/d3-203-interpolateBlues' },
+    { menuName: 'd3-204-interpolateBrBG', menuLink: '/d3-example/d3-204-interpolateBrBG' },
   ]);
 
   useEffect(() => {
