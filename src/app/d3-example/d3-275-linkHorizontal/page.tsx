@@ -1,18 +1,18 @@
 "use client"
-import { curveBumpY, link, select } from "d3";
+import { curveBumpY, linkHorizontal, select } from "d3";
 import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
 
-// https://devdocs.io/d3~7/d3-shape#link
+// https://www.geeksforgeeks.org/d3-js-linkhorizontal-method/
 
 const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>d3-274-link</title>
-        <meta name="description" content="d3-274-link 예시 코드 페이지입니다." />
+        <title>d3-275-linkHorizontal</title>
+        <meta name="description" content="d3-275-linkHorizontal 예시 코드 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -34,11 +34,10 @@ const PageContents = () => {
     }
 
     /*
-      d3.link 함수는 지정한 곡선을 사용하여 새 링크 생성기를 반환합니다. 
-      예를 들어 디스플레이 상단 모서리에 루트를 둔 트리 다이어그램의 링크를 시각화하려면
-      기본 설정을 사용하는 경우 링크 생성기는 DefaultLinkObject 인터페이스를 준수하는 링크 개체를 허용합니다.
+      d3.linkHorizontal 함수는 수평 접선 이 있는 새 링크 생성기를 반환합니다. 
+      일반적으로 루트가 위쪽/아래쪽 가장자리에 있고 하위 항목이 아래로/위로 이동하는 경우에 사용됩니다.
     */
-    const linkGenerator = link(curveBumpY)
+    const linkGenerator = linkHorizontal()
       .x(d => d[0])
       .y(d => d[1])
     ;
