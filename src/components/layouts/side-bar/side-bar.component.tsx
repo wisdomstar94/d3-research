@@ -269,6 +269,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-252-interpolateTransformCss', menuLink: '/d3-example/d3-252-interpolateTransformCss' },
     { menuName: 'd3-253-interpolateTransformSvg', menuLink: '/d3-example/d3-253-interpolateTransformSvg' },
     { menuName: 'd3-254-interpolateTurbo', menuLink: '/d3-example/d3-254-interpolateTurbo' },
+    { menuName: 'd3-255-interpolateViridis', menuLink: '/d3-example/d3-255-interpolateViridis' },
   ]);
 
   useEffect(() => {
