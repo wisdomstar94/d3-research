@@ -244,6 +244,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-227-interpolateObject', menuLink: '/d3-example/d3-227-interpolateObject' },
     { menuName: 'd3-228-interpolateOrRd', menuLink: '/d3-example/d3-228-interpolateOrRd' },
     { menuName: 'd3-229-interpolateOranges', menuLink: '/d3-example/d3-229-interpolateOranges' },
+    { menuName: 'd3-230-interpolatePRGn', menuLink: '/d3-example/d3-230-interpolatePRGn' },
   ]);
 
   useEffect(() => {
