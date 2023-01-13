@@ -210,6 +210,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-193-hierarchy', menuLink: '/d3-example/d3-193-hierarchy' },
     { menuName: 'd3-194-hsl', menuLink: '/d3-example/d3-194-hsl' },
     { menuName: 'd3-195-html', menuLink: '/d3-example/d3-195-html' },
+    { menuName: 'd3-196-image', menuLink: '/d3-example/d3-196-image' },
   ]);
 
   useEffect(() => {
