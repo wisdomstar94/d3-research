@@ -278,6 +278,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-261-interpolateZoom', menuLink: '/d3-example/d3-261-interpolateZoom' },
     { menuName: 'd3-262-interrupt', menuLink: '/d3-example/d3-262-interrupt' },
     { menuName: 'd3-263-intersection', menuLink: '/d3-example/d3-263-intersection' },
+    { menuName: 'd3-264-interval', menuLink: '/d3-example/d3-264-interval' },
   ]);
 
   useEffect(() => {
