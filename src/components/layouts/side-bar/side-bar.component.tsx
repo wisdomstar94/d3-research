@@ -280,6 +280,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-263-intersection', menuLink: '/d3-example/d3-263-intersection' },
     { menuName: 'd3-264-interval', menuLink: '/d3-example/d3-264-interval' },
     { menuName: 'd3-265-isoFormat', menuLink: '/d3-example/d3-265-isoFormat' },
+    { menuName: 'd3-266-isoParse', menuLink: '/d3-example/d3-266-isoParse' },
   ]);
 
   useEffect(() => {
