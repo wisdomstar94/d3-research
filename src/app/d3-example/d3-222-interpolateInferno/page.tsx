@@ -32,8 +32,9 @@ const PageContents = () => {
     }
 
     /*
-      d3.interpolateInferno 함수는 [0,1] 범위의 숫자 t가 지정되면 
-      RGB 문자열로 표현되는 "GnBu" 순차 색상표에서 해당 색상을 반환합니다.
+      d3.interpolateInferno 함수는 [0,1] 범위의 숫자 t가 주어졌을 때, 
+      반 데어 월트와 스미스가 RGB 문자열로 표현한 형식 플롯리브를 위해 설계한 
+      지각적으로 균일한 색상 체계에서 해당 색상을 반환한다.
     */
     
     const color0 = interpolateInferno(0);
