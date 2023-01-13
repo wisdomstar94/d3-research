@@ -227,6 +227,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-210-interpolateCubehelixDefault', menuLink: '/d3-example/d3-210-interpolateCubehelixDefault' },
     { menuName: 'd3-211-interpolateCubehelixLong', menuLink: '/d3-example/d3-211-interpolateCubehelixLong' },
     { menuName: 'd3-212-interpolateDate', menuLink: '/d3-example/d3-212-interpolateDate' },
+    { menuName: 'd3-213-interpolateDiscrete', menuLink: '/d3-example/d3-213-interpolateDiscrete' },
   ]);
 
   useEffect(() => {
