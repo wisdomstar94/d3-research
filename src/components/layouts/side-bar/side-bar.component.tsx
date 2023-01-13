@@ -282,6 +282,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-265-isoFormat', menuLink: '/d3-example/d3-265-isoFormat' },
     { menuName: 'd3-266-isoParse', menuLink: '/d3-example/d3-266-isoParse' },
     { menuName: 'd3-267-json', menuLink: '/d3-example/d3-267-json' },
+    { menuName: 'd3-268-lab', menuLink: '/d3-example/d3-268-lab' },
   ]);
 
   useEffect(() => {
