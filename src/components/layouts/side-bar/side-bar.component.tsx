@@ -287,6 +287,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-270-least', menuLink: '/d3-example/d3-270-least' },
     { menuName: 'd3-271-leastIndex', menuLink: '/d3-example/d3-271-leastIndex' },
     { menuName: 'd3-272-line', menuLink: '/d3-example/d3-272-line' },
+    { menuName: 'd3-273-lineRadial', menuLink: '/d3-example/d3-273-lineRadial' },
   ]);
 
   useEffect(() => {
