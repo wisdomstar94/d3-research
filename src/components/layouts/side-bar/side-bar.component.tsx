@@ -313,6 +313,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-296-pairs', menuLink: '/d3-example/d3-296-pairs' },
     { menuName: 'd3-297-partition', menuLink: '/d3-example/d3-297-partition' },
     { menuName: 'd3-298-path', menuLink: '/d3-example/d3-298-path' },
+    { menuName: 'd3-299-permute', menuLink: '/d3-example/d3-299-permute' },
   ]);
 
   useEffect(() => {
