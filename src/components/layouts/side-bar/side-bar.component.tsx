@@ -328,6 +328,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-311-precisionPrefix', menuLink: '/d3-example/d3-311-precisionPrefix' },
     { menuName: 'd3-312-precisionRound', menuLink: '/d3-example/d3-312-precisionRound' },
     { menuName: 'd3-313-quadtree', menuLink: '/d3-example/d3-313-quadtree' },
+    { menuName: 'd3-314-quantile', menuLink: '/d3-example/d3-314-quantile' },
   ]);
 
   useEffect(() => {
