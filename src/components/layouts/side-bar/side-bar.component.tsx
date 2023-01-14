@@ -302,6 +302,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-285-merge', menuLink: '/d3-example/d3-285-merge' },
     { menuName: 'd3-286-min', menuLink: '/d3-example/d3-286-min' },
     { menuName: 'd3-287-minIndex', menuLink: '/d3-example/d3-287-minIndex' },
+    { menuName: 'd3-288-mode', menuLink: '/d3-example/d3-288-mode' },
   ]);
 
   useEffect(() => {
