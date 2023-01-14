@@ -325,6 +325,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-308-polygonHull', menuLink: '/d3-example/d3-308-polygonHull' },
     { menuName: 'd3-309-polygonLength', menuLink: '/d3-example/d3-309-polygonLength' },
     { menuName: 'd3-310-precisionFixed', menuLink: '/d3-example/d3-310-precisionFixed' },
+    { menuName: 'd3-311-precisionPrefix', menuLink: '/d3-example/d3-311-precisionPrefix' },
   ]);
 
   useEffect(() => {
