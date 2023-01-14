@@ -318,6 +318,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-301-piecewise', menuLink: '/d3-example/d3-301-piecewise' },
     { menuName: 'd3-302-pointRadial', menuLink: '/d3-example/d3-302-pointRadial' },
     { menuName: 'd3-303-pointer', menuLink: '/d3-example/d3-303-pointer' },
+    { menuName: 'd3-304-pointers', menuLink: '/d3-example/d3-304-pointers' },
   ]);
 
   useEffect(() => {
