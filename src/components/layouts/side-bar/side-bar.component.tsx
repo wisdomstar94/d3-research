@@ -307,6 +307,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-290-namespaces', menuLink: '/d3-example/d3-290-namespaces' },
     { menuName: 'd3-291-nice', menuLink: '/d3-example/d3-291-nice' },
     { menuName: 'd3-292-now', menuLink: '/d3-example/d3-292-now' },
+    { menuName: 'd3-293-pack', menuLink: '/d3-example/d3-293-pack' },
   ]);
 
   useEffect(() => {
