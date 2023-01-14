@@ -315,6 +315,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-298-path', menuLink: '/d3-example/d3-298-path' },
     { menuName: 'd3-299-permute', menuLink: '/d3-example/d3-299-permute' },
     { menuName: 'd3-300-pie', menuLink: '/d3-example/d3-300-pie' },
+    { menuName: 'd3-301-piecewise', menuLink: '/d3-example/d3-301-piecewise' },
   ]);
 
   useEffect(() => {
