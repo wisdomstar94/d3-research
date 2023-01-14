@@ -350,6 +350,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-333-randomPoisson', menuLink: '/d3-example/d3-333-randomPoisson' },
     { menuName: 'd3-334-randomUniform', menuLink: '/d3-example/d3-334-randomUniform' },
     { menuName: 'd3-335-randomWeibull', menuLink: '/d3-example/d3-335-randomWeibull' },
+    { menuName: 'd3-336-range', menuLink: '/d3-example/d3-336-range' },
     
   ]);
 
