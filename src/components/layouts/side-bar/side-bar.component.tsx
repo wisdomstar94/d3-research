@@ -383,6 +383,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-366-scaleSequentialSymlog', menuLink: '/d3-example/d3-366-scaleSequentialSymlog' },
     { menuName: 'd3-367-scaleSqrt', menuLink: '/d3-example/d3-367-scaleSqrt' },
     { menuName: 'd3-368-scaleSymlog', menuLink: '/d3-example/d3-368-scaleSymlog' },
+    { menuName: 'd3-369-scaleThreshold', menuLink: '/d3-example/d3-369-scaleThreshold' },
     
   ]);
 
