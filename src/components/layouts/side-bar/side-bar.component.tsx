@@ -381,6 +381,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-364-scaleSequentialQuantile', menuLink: '/d3-example/d3-364-scaleSequentialQuantile' },
     { menuName: 'd3-365-scaleSequentialSqrt', menuLink: '/d3-example/d3-365-scaleSequentialSqrt' },
     { menuName: 'd3-366-scaleSequentialSymlog', menuLink: '/d3-example/d3-366-scaleSequentialSymlog' },
+    { menuName: 'd3-367-scaleSqrt', menuLink: '/d3-example/d3-367-scaleSqrt' },
     
   ]);
 
