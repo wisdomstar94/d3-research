@@ -370,6 +370,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-353-scaleLinear', menuLink: '/d3-example/d3-353-scaleLinear' },
     { menuName: 'd3-354-scaleLog', menuLink: '/d3-example/d3-354-scaleLog' },
     { menuName: 'd3-355-scaleOrdinal', menuLink: '/d3-example/d3-355-scaleOrdinal' },
+    { menuName: 'd3-356-scalePoint', menuLink: '/d3-example/d3-356-scalePoint' },
     
   ]);
 
