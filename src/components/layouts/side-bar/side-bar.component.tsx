@@ -292,6 +292,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-275-linkHorizontal', menuLink: '/d3-example/d3-275-linkHorizontal' },
     { menuName: 'd3-276-linkRadial', menuLink: '/d3-example/d3-276-linkRadial' },
     { menuName: 'd3-277-linkVertical', menuLink: '/d3-example/d3-277-linkVertical' },
+    { menuName: 'd3-278-local', menuLink: '/d3-example/d3-278-local' },
   ]);
 
   useEffect(() => {
