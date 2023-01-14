@@ -310,6 +310,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-293-pack', menuLink: '/d3-example/d3-293-pack' },
     { menuName: 'd3-294-packEnclose', menuLink: '/d3-example/d3-294-packEnclose' },
     { menuName: 'd3-295-packSiblings', menuLink: '/d3-example/d3-295-packSiblings' },
+    { menuName: 'd3-296-pairs', menuLink: '/d3-example/d3-296-pairs' },
   ]);
 
   useEffect(() => {
