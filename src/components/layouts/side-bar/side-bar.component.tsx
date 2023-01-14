@@ -367,6 +367,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-350-scaleDivergingSymlog', menuLink: '/d3-example/d3-350-scaleDivergingSymlog' },
     { menuName: 'd3-351-scaleIdentity', menuLink: '/d3-example/d3-351-scaleIdentity' },
     { menuName: 'd3-352-scaleImplicit', menuLink: '/d3-example/d3-352-scaleImplicit' },
+    { menuName: 'd3-353-scaleLinear', menuLink: '/d3-example/d3-353-scaleLinear' },
     
   ]);
 
