@@ -295,6 +295,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-278-local', menuLink: '/d3-example/d3-278-local' },
     { menuName: 'd3-279-map', menuLink: '/d3-example/d3-279-map' },
     { menuName: 'd3-280-matcher', menuLink: '/d3-example/d3-280-matcher' },
+    { menuName: 'd3-281-max', menuLink: '/d3-example/d3-281-max' },
   ]);
 
   useEffect(() => {
