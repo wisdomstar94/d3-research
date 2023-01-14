@@ -330,6 +330,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-313-quadtree', menuLink: '/d3-example/d3-313-quadtree' },
     { menuName: 'd3-314-quantile', menuLink: '/d3-example/d3-314-quantile' },
     { menuName: 'd3-315-quantileSorted', menuLink: '/d3-example/d3-315-quantileSorted' },
+    { menuName: 'd3-316-quantize', menuLink: '/d3-example/d3-316-quantize' },
     
   ]);
 
