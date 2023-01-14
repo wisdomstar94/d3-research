@@ -336,6 +336,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-319-randomBernoulli', menuLink: '/d3-example/d3-319-randomBernoulli' },
     { menuName: 'd3-320-randomBeta', menuLink: '/d3-example/d3-320-randomBeta' },
     { menuName: 'd3-321-randomBinomial', menuLink: '/d3-example/d3-321-randomBinomial' },
+    { menuName: 'd3-322-randomCauchy', menuLink: '/d3-example/d3-322-randomCauchy' },
     
   ]);
 
