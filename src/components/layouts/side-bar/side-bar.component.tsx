@@ -323,6 +323,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-306-polygonCentroid', menuLink: '/d3-example/d3-306-polygonCentroid' },
     { menuName: 'd3-307-polygonContains', menuLink: '/d3-example/d3-307-polygonContains' },
     { menuName: 'd3-308-polygonHull', menuLink: '/d3-example/d3-308-polygonHull' },
+    { menuName: 'd3-309-polygonLength', menuLink: '/d3-example/d3-309-polygonLength' },
   ]);
 
   useEffect(() => {
