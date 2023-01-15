@@ -1,19 +1,19 @@
 "use client"
-import { stack, stackOffsetNone, stackOrderNone } from "d3";
+import { stack, stackOffsetDiverging, stackOffsetNone, stackOrderNone } from "d3";
 import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
 import CommonLayout from "../../../components/layouts/common-layout/common-layout.component";
 
-// https://www.geeksforgeeks.org/d3-js-stack-method/
 // http://using-d3js.com/05_06_stacks.html
+// https://www.appsloveworld.com/d3js/100/43/how-to-draw-mirrored-x-axisinverted-bar-chart-in-d3
 
 const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>d3-381-stack</title>
-        <meta name="description" content="d3-381-stack 예시 코드 페이지입니다." />
+        <title>d3-382-stackOffsetDiverging</title>
+        <meta name="description" content="d3-382-stackOffsetDiverging 예시 코드 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -35,7 +35,8 @@ const PageContents = () => {
     }
 
     /*
-      d3.stack 함수는 기본 설정으로 새 스택 생성기를 구성합니다.
+      d3.stackOffsetDiverging 함수는 양의 값은 0 위에 쌓이고 
+      음의 값은 0 아래에 쌓이고 0의 값은 0 위에 쌓입니다.
     */
 
     const data = [
@@ -49,14 +50,11 @@ const PageContents = () => {
       stack()
       .keys(["a", "b", "c", "d"])
       .order(stackOrderNone)
-      .offset(stackOffsetNone)
+      .offset(stackOffsetDiverging)
     ;
 
     const myStack = stackGen(data);
     console.log(`myStack`, myStack);
-    // for(let i = 0; i < data.length; i++) {
-    //   console.log(`@@`, myStack[i]);
-    // }
   }, []);
 
   return (
