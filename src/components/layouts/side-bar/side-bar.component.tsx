@@ -397,6 +397,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-380-sort', menuLink: '/d3-example/d3-380-sort' },
     { menuName: 'd3-381-stack', menuLink: '/d3-example/d3-381-stack' },
     { menuName: 'd3-382-stackOffsetDiverging', menuLink: '/d3-example/d3-382-stackOffsetDiverging' },
+    { menuName: 'd3-383-stackOffsetExpand', menuLink: '/d3-example/d3-383-stackOffsetExpand' },
     
   ]);
 
