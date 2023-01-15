@@ -391,6 +391,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-374-selection', menuLink: '/d3-example/d3-374-selection' },
     { menuName: 'd3-375-selector', menuLink: '/d3-example/d3-375-selector' },
     { menuName: 'd3-376-selectorAll', menuLink: '/d3-example/d3-376-selectorAll' },
+    { menuName: 'd3-377-shuffle', menuLink: '/d3-example/d3-377-shuffle' },
     
   ]);
 
