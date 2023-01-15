@@ -409,6 +409,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-392-stackOrderReverse', menuLink: '/d3-example/d3-392-stackOrderReverse' },
     { menuName: 'd3-393-stratify', menuLink: '/d3-example/d3-393-stratify' },
     { menuName: 'd3-394-style', menuLink: '/d3-example/d3-394-style' },
+    { menuName: 'd3-395-subset', menuLink: '/d3-example/d3-395-subset' },
     
   ]);
 
