@@ -428,6 +428,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-411-symbolWye', menuLink: '/d3-example/d3-411-symbolWye' },
     { menuName: 'd3-412-symbolX', menuLink: '/d3-example/d3-412-symbolX' },
     { menuName: 'd3-413-symbolsFill', menuLink: '/d3-example/d3-413-symbolsFill' },
+    { menuName: 'd3-414-symbolsStroke', menuLink: '/d3-example/d3-414-symbolsStroke' },
     
   ]);
 
