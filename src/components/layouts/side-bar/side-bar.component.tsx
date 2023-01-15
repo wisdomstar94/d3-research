@@ -414,6 +414,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-397-superset', menuLink: '/d3-example/d3-397-superset' },
     { menuName: 'd3-398-svg', menuLink: '/d3-example/d3-398-svg' },
     { menuName: 'd3-399-symbol', menuLink: '/d3-example/d3-399-symbol' },
+    { menuName: 'd3-400-symbolAsterisk', menuLink: '/d3-example/d3-400-symbolAsterisk' },
     
   ]);
 
