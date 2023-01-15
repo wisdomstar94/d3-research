@@ -431,6 +431,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-414-symbolsStroke', menuLink: '/d3-example/d3-414-symbolsStroke' },
     { menuName: 'd3-415-text', menuLink: '/d3-example/d3-415-text' },
     { menuName: 'd3-416-thresholdFreedmanDiaconis', menuLink: '/d3-example/d3-416-thresholdFreedmanDiaconis' },
+    { menuName: 'd3-417-thresholdScott', menuLink: '/d3-example/d3-417-thresholdScott' },
     
   ]);
 
