@@ -1,5 +1,5 @@
 "use client"
-import { selector } from "d3";
+import { selectorAll } from "d3";
 import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
@@ -9,8 +9,8 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>d3-375-selector</title>
-        <meta name="description" content="d3-375-selector 예시 코드 페이지입니다." />
+        <title>d3-376-selectorAll</title>
+        <meta name="description" content="d3-376-selectorAll 예시 코드 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,10 +32,12 @@ const PageContents = () => {
     }
 
     /*
-      d3.selector 실행 시 인수로 전달된 선택기와 일치하는 첫 번째 하위 항목을 반환하는 함수를 반환합니다.
+      d3.selectorAll 실행 시 지정한 선택기가 지정된 경우 
+      지정한 선택기와 일치하는 이 요소의 모든 하위 항목을 반환하는 함수를 반환합니다. 
+      이 방법은 선택에 의해 내부적으로 사용됩니다.모두를 선택합니다.
     */
 
-    const mySelector = selector('div.box');
+    const mySelector = selectorAll('div');
     (document as any).mySelector = mySelector;
     console.log(`document.mySelector()`, (document as any).mySelector());
 
