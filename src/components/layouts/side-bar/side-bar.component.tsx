@@ -402,6 +402,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-385-stackOffsetSilhouette', menuLink: '/d3-example/d3-385-stackOffsetSilhouette' },
     { menuName: 'd3-386-stackOffsetWiggle', menuLink: '/d3-example/d3-386-stackOffsetWiggle' },
     { menuName: 'd3-387-stackOrderAppearance', menuLink: '/d3-example/d3-387-stackOrderAppearance' },
+    { menuName: 'd3-388-stackOrderAscending', menuLink: '/d3-example/d3-388-stackOrderAscending' },
     
   ]);
 
