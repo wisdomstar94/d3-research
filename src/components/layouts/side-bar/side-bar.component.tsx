@@ -406,6 +406,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-389-stackOrderDescending', menuLink: '/d3-example/d3-389-stackOrderDescending' },
     { menuName: 'd3-390-stackOrderInsideOut', menuLink: '/d3-example/d3-390-stackOrderInsideOut' },
     { menuName: 'd3-391-stackOrderNone', menuLink: '/d3-example/d3-391-stackOrderNone' },
+    { menuName: 'd3-392-stackOrderReverse', menuLink: '/d3-example/d3-392-stackOrderReverse' },
     
   ]);
 
