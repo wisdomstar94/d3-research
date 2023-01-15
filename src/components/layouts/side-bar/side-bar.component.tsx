@@ -439,6 +439,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-422-ticks', menuLink: '/d3-example/d3-422-ticks' },
     { menuName: 'd3-423-timeDay', menuLink: '/d3-example/d3-423-timeDay' },
     { menuName: 'd3-424-timeDays', menuLink: '/d3-example/d3-424-timeDays' },
+    { menuName: 'd3-425-timeFormat', menuLink: '/d3-example/d3-425-timeFormat' },
     
   ]);
 
