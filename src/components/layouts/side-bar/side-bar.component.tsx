@@ -411,6 +411,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-394-style', menuLink: '/d3-example/d3-394-style' },
     { menuName: 'd3-395-subset', menuLink: '/d3-example/d3-395-subset' },
     { menuName: 'd3-396-sum', menuLink: '/d3-example/d3-396-sum' },
+    { menuName: 'd3-397-superset', menuLink: '/d3-example/d3-397-superset' },
     
   ]);
 
