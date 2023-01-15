@@ -434,6 +434,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-417-thresholdScott', menuLink: '/d3-example/d3-417-thresholdScott' },
     { menuName: 'd3-418-thresholdSturges', menuLink: '/d3-example/d3-418-thresholdSturges' },
     { menuName: 'd3-419-tickFormat', menuLink: '/d3-example/d3-419-tickFormat' },
+    { menuName: 'd3-420-tickIncrement', menuLink: '/d3-example/d3-420-tickIncrement' },
     
   ]);
 
