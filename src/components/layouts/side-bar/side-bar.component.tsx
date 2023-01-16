@@ -482,6 +482,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-465-tree', menuLink: '/d3-example/d3-465-tree' },
     { menuName: 'd3-466-treemap', menuLink: '/d3-example/d3-466-treemap' },
     { menuName: 'd3-467-treemapBinary', menuLink: '/d3-example/d3-467-treemapBinary' },
+    { menuName: 'd3-468-treemapDice', menuLink: '/d3-example/d3-468-treemapDice' },
   ]);
   
 
