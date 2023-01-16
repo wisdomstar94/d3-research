@@ -478,6 +478,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-461-timer', menuLink: '/d3-example/d3-461-timer' },
     { menuName: 'd3-462-timerFlush', menuLink: '/d3-example/d3-462-timerFlush' },
     { menuName: 'd3-463-transition', menuLink: '/d3-example/d3-463-transition' },
+    { menuName: 'd3-464-transpose', menuLink: '/d3-example/d3-464-transpose' },
   ]);
   
 
