@@ -442,6 +442,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-425-timeFormat', menuLink: '/d3-example/d3-425-timeFormat' },
     { menuName: 'd3-426-timeFormatDefaultLocale', menuLink: '/d3-example/d3-426-timeFormatDefaultLocale' },
     { menuName: 'd3-427-timeFormatLocale', menuLink: '/d3-example/d3-427-timeFormatLocale' },
+    { menuName: 'd3-428-timeFriday', menuLink: '/d3-example/d3-428-timeFriday' },
     
   ]);
 
