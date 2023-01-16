@@ -473,6 +473,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-456-timeWeek', menuLink: '/d3-example/d3-456-timeWeek' },
     { menuName: 'd3-457-timeWeeks', menuLink: '/d3-example/d3-457-timeWeeks' },
     { menuName: 'd3-458-timeYear', menuLink: '/d3-example/d3-458-timeYear' },
+    { menuName: 'd3-459-timeYears', menuLink: '/d3-example/d3-459-timeYears' },
   ]);
   
 
