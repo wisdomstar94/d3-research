@@ -475,6 +475,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-458-timeYear', menuLink: '/d3-example/d3-458-timeYear' },
     { menuName: 'd3-459-timeYears', menuLink: '/d3-example/d3-459-timeYears' },
     { menuName: 'd3-460-timeout', menuLink: '/d3-example/d3-460-timeout' },
+    { menuName: 'd3-461-timer', menuLink: '/d3-example/d3-461-timer' },
   ]);
   
 
