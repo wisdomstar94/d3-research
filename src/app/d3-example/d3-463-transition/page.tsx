@@ -45,10 +45,12 @@ const PageContents = () => {
       .duration(1000)
     ;
 
-    const svg = select(boxElementRef.current)
+    const svg = 
+      select(boxElementRef.current)
       .append('svg')
       .attr("width", "300")
-      .attr("height", "300");
+      .attr("height", "300")
+    ;
     
     const circle = svg
       .append('g')
