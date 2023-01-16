@@ -446,6 +446,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-429-timeFridays', menuLink: '/d3-example/d3-429-timeFridays' },
     { menuName: 'd3-430-timeHour', menuLink: '/d3-example/d3-430-timeHour' },
     { menuName: 'd3-431-timeHours', menuLink: '/d3-example/d3-431-timeHours' },
+    { menuName: 'd3-432-timeInterval', menuLink: '/d3-example/d3-432-timeInterval' },
     
   ]);
 
