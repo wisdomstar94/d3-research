@@ -480,6 +480,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-463-transition', menuLink: '/d3-example/d3-463-transition' },
     { menuName: 'd3-464-transpose', menuLink: '/d3-example/d3-464-transpose' },
     { menuName: 'd3-465-tree', menuLink: '/d3-example/d3-465-tree' },
+    { menuName: 'd3-466-treemap', menuLink: '/d3-example/d3-466-treemap' },
   ]);
   
 
