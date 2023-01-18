@@ -488,6 +488,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-471-treemapSliceDice', menuLink: '/d3-example/d3-471-treemapSliceDice' },
     { menuName: 'd3-472-treemapSquarify', menuLink: '/d3-example/d3-472-treemapSquarify' },
     { menuName: 'd3-473-tsv', menuLink: '/d3-example/d3-473-tsv' },
+    { menuName: 'd3-474-tsvFormat', menuLink: '/d3-example/d3-474-tsvFormat' },
   ]);
   
 
