@@ -491,6 +491,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-474-tsvFormat', menuLink: '/d3-example/d3-474-tsvFormat' },
     { menuName: 'd3-475-tsvFormatBody', menuLink: '/d3-example/d3-475-tsvFormatBody' },
     { menuName: 'd3-476-tsvFormatRow', menuLink: '/d3-example/d3-476-tsvFormatRow' },
+    { menuName: 'd3-477-tsvFormatRows', menuLink: '/d3-example/d3-477-tsvFormatRows' },
     
   ]);
   

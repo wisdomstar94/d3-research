@@ -32,12 +32,12 @@ const PageContents = () => {
     }
 
     /*
-      d3.tsvFormatRow 함수는 dsvFormat("\t")과 동일합니다.
+      d3.tsvFormatRow 함수는 dsvFormat("\t").formatRow 와 동일합니다.
     */
   
-    const rows = ['a	21',  'b	22'];
+    const row = ['a', '2'];
 
-    const result = tsvFormatRow(rows);
+    const result = tsvFormatRow(row);
     console.log(`result`, result);
   }, []);
 

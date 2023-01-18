@@ -1,5 +1,5 @@
 "use client"
-import { tsvFormatBody } from "d3";
+import { tsvFormatRows } from "d3";
 import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
@@ -9,8 +9,8 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>d3-475-tsvFormatBody</title>
-        <meta name="description" content="d3-475-tsvFormatBody 예시 코드 페이지입니다." />
+        <title>d3-477-tsvFormatRows</title>
+        <meta name="description" content="d3-477-tsvFormatRows 예시 코드 페이지입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,18 +32,16 @@ const PageContents = () => {
     }
 
     /*
-      d3.tsvFormatBody 함수는 dsvFormat("\t").formatBody 와 동일합니다.
+      d3.tsvFormatRows 함수는 dsvFormat("\t").formatRows 와 동일합니다.
     */
   
     const rows = [
-      { name: 'a', age: 20 },
-      { name: 'b', age: 22 },
-      { name: 'c', age: 24 },
-      { name: 'd', age: 26 },
-      { name: 'e', age: 28 },
+      ['a', '2'],
+      ['b', '3'],
+      ['c', '4'],
     ];
 
-    const result = tsvFormatBody(rows);
+    const result = tsvFormatRows(rows);
     console.log(`result`, result);
   }, []);
 
