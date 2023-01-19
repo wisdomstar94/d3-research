@@ -536,6 +536,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-519-xml', menuLink: '/d3-example/d3-519-xml' },
     { menuName: 'd3-520-zip', menuLink: '/d3-example/d3-520-zip' },
     { menuName: 'd3-521-zoom', menuLink: '/d3-example/d3-521-zoom' },
+    { menuName: 'd3-522-zoomIdentity', menuLink: '/d3-example/d3-522-zoomIdentity' },
     
   ]);
   
