@@ -533,6 +533,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-516-variance', menuLink: '/d3-example/d3-516-variance' },
     { menuName: 'd3-517-version', menuLink: '/d3-example/d3-517-version' },
     { menuName: 'd3-518-window', menuLink: '/d3-example/d3-518-window' },
+    { menuName: 'd3-519-xml', menuLink: '/d3-example/d3-519-xml' },
     
   ]);
   
