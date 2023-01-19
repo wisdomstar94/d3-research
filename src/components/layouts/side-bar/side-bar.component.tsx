@@ -498,6 +498,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-481-union', menuLink: '/d3-example/d3-481-union' },
     { menuName: 'd3-482-utcDay', menuLink: '/d3-example/d3-482-utcDay' },
     { menuName: 'd3-483-utcDays', menuLink: '/d3-example/d3-483-utcDays' },
+    { menuName: 'd3-484-utcFormat', menuLink: '/d3-example/d3-484-utcFormat' },
     
   ]);
   
