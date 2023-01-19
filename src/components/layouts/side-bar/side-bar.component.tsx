@@ -508,6 +508,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-491-utcMinute', menuLink: '/d3-example/d3-491-utcMinute' },
     { menuName: 'd3-492-utcMinutes', menuLink: '/d3-example/d3-492-utcMinutes' },
     { menuName: 'd3-493-utcMonday', menuLink: '/d3-example/d3-493-utcMonday' },
+    { menuName: 'd3-494-utcMondays', menuLink: '/d3-example/d3-494-utcMondays' },
     
   ]);
   
