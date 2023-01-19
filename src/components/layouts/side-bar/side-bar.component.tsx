@@ -531,6 +531,7 @@ const SideBar = (props: ISideBar.Props) => {
     { menuName: 'd3-514-utcYear', menuLink: '/d3-example/d3-514-utcYear' },
     { menuName: 'd3-515-utcYears', menuLink: '/d3-example/d3-515-utcYears' },
     { menuName: 'd3-516-variance', menuLink: '/d3-example/d3-516-variance' },
+    { menuName: 'd3-517-version', menuLink: '/d3-example/d3-517-version' },
     
   ]);
   
