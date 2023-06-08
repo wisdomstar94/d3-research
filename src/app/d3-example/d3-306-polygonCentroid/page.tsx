@@ -42,9 +42,9 @@ const PageContents = () => {
     const data: Array<[number, number]> = [
       [32, 35],
       [108, 34],
-      [140, 110],
-      [0, 111],
-      [50, 150],
+      [32, 36],
+      // [0, 111],
+      // [50, 150],
     ];
     data.forEach((point, index) => {
       svg
