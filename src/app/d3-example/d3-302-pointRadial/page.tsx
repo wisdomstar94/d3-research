@@ -35,15 +35,25 @@ const PageContents = () => {
       d3.pointRadial 함수는 지정된 각도에 대한 점 [x, y]를 라디안 단위로 반환합니다. 
       -y(12시)에서 시계 방향으로 진행되는 양의 각도와 지정된 반지름을 사용합니다.
     */
-    const point = pointRadial(30, 30);
+    const point = pointRadial(12, 30);
     console.log('point', point);
 
 
 
 
-    const data = [1, 1, 2, 3, 5, 8, 13, 21];
-    const arcs = pie()(data);
+    const data = [13, 21];
+    const _pie = pie();
+    const arcs = _pie(data);
     const svg = select(boxElementRef.current).append('svg').attr("width", "100%").attr("height", "100%");
+
+    svg.append('g')
+      .append('circle')
+      .attr('cx', data[0])
+      .attr('cy', data[1])
+      .attr('r', '5')
+      .attr('fill', '#00f')
+    ;
+      
     svg.append('g')
       .attr("transform", "translate(150, 150)")
       .selectAll()
