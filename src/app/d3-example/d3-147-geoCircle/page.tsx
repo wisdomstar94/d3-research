@@ -92,10 +92,11 @@ const PageContents = () => {
       context.stroke();
 
       // Circle
-      const circle = geoCircle().center([0.1278, 51.5074]).radius(5)
+      const circle = geoCircle().center([0.1278, 51.5074]).radius(5);
       context.beginPath();
       context.strokeStyle = 'red';
       geoGenerator(circle());
+      console.log('@@circle().coordinates', circle().coordinates); // 원을 구성하는 점들을 받을 수 있음.
       context.stroke();
     });
   }, []);
